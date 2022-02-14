@@ -12,7 +12,7 @@ Route<dynamic> generateRoute(RouteSettings settings) {
     case AboutRoute:
       return _getPageRoute(AboutView(), settings.name);
     case EpisodesRoute:
-      return _getPageRoute(EpisodesView(), settings.name);
+      return _getPageRoute(EpisodeView(), settings.name);
     default:
   }
 }
@@ -44,4 +44,3 @@ class _FadeRoute extends PageRouteBuilder {
                   child: child,
                 ));
 }
-

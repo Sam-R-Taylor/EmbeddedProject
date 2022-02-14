@@ -26,6 +26,9 @@ dependencies:
   responsive_builder: ^0.2.0+2
   get_it: ^4.0.2
   mqtt_client: ^7.2.1
+  latlong: ^0.6.1
+  flutter_map: any
+  flutter_map_marker_cluster: any
 
 dev_dependencies:
   flutter_test:
